@@ -16,7 +16,7 @@ import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 
 /**
- * 使用了线程安全的并发工具，并不代表解决了所有线程安全问题
+ * Bug02: 使用了线程安全的并发工具，并不代表解决了所有线程安全问题
  */
 @RestController
 @RequestMapping("/No02UsingConcurrencyToolsIncorrectlyBug")

@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
- * 没有充分了解并发工具的特性，从而无法发挥其威力
+ * Bug03: 没有充分了解并发工具的特性，从而无法发挥其威力
  */
 @RestController
 @RequestMapping("/No03MisunderstandConcurrencyToolsFeaturesBug")

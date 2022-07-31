@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 
 /**
- * 没有意识到线程重用导致用户信息错乱的 Bug
+ * Bug01: 没有意识到线程重用导致用户信息错乱的 Bug
  */
 @RestController
 @RequestMapping("/No01ReuseThreadsBug")

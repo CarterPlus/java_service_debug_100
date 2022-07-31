@@ -15,7 +15,7 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.IntStream;
 
 /**
- * 没有认清并发工具的使用场景，因而导致性能问题
+ * Bug04: 没有认清并发工具的使用场景，因而导致性能问题
  * <p>
  * 除了 ConcurrentHashMap 这样通用的并发工具类之外，我们的工具包中还有些针对特殊场景实现的生面孔。
  * 一般来说，针对通用场景的通用解决方案，在所有场景下性能都还可以，属于“万金油”；

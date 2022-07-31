@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
 /**
- * 加锁要考虑锁的粒度和场景问题
+ * Bug06: 加锁要考虑锁的粒度和场景问题
  */
 @Slf4j
 public class No06ConsiderLockingGranularityBug {
